@@ -1,0 +1,6 @@
+[project]
+name = "payment-system-rabbitmq"
+version = "1.0.0"
+dependencies = [
+    "fastapi"
+]
