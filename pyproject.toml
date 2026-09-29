@@ -2,5 +2,11 @@
 name = "payment-system-rabbitmq"
 version = "1.0.0"
 dependencies = [
-    "fastapi"
+    "fastapi[standard]",
+    "pydantic-settings",
+    "sqlalchemy[asyncio]",
+    "aiosqlite",
+    "asyncpg",
+    "pyjwt",
+    "pwdlib[argon2]",
 ]
